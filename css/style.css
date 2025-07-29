@@ -338,7 +338,6 @@ button {
     padding: 19px 53.5px;
     font-size: 1rem;
     cursor: pointer;
-    transition: background-color 0.3s ease;
     margin-left: 0px;
 }
 
@@ -446,7 +445,6 @@ footer ul li{
         border: none;
         padding: 19px 12px;
         font-size: 1rem;
-        cursor: pointer;
         transition: background-color 0.3s ease;
         margin-left: 0px;
     }
