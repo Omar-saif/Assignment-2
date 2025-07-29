@@ -29,12 +29,13 @@
     color: rgba(233, 90, 8, 1);
 }
 
-body{
+/* body{
     max-width: 1140px;
     margin: 0 auto;
-}
+} */
 
 header{
+    max-width: 1140px;
     margin: 0 auto;
 }
 
@@ -88,6 +89,11 @@ nav ul li a{
 
 /* Our Plants styles */
 
+.our-plants{
+    max-width: 1140px;
+    margin: 0px auto;
+}
+
 .plants{
     margin: 0px auto;
     text-align: center;
@@ -140,13 +146,56 @@ nav ul li a{
 
 /* Plants Lover Styles */
 
-.plants-lover{
+.plants{
+    max-width: 1140px;
+    margin: 0 auto;
     margin-top: 210px;
+}
+
+/* .badge {
+    position: absolute;
+    top: -40px;
+    left: 0;
+    height: 150px;
+    
+} */
+
+.plants-lover{
+    margin-top: 0px;
     display: flex;
     align-items: center;
     gap: 60px;
 }
 
+.lover-title{
+    font-size: 3.1rem;
+    font-weight: 700;
+}
+
+.lover-text{
+    text-align: left;
+}
+
+.lover-text ul{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.lover-text ul li{
+    font-size: 1.4rem;
+}
+
+
+/* lates deals styles */
+.latest-deals{
+    max-width: 1140px;
+    margin: 0px auto;
+}
+
+.latest-text{
+    text-align: center;
+}
 
 
 
@@ -175,4 +224,6 @@ nav ul li a{
         row-gap: 30px;
         margin-top: 49px;
     }
+
+
 }
